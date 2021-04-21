@@ -1,7 +1,10 @@
 {
+  "include": [
+    "./src/*"
+  ],
   "compilerOptions": {
     "strict": true,
-    "module": "commonjs",
+    "module": "esnext",
     "jsx": "preserve",
     "esModuleInterop": true,
     "sourceMap": true,
@@ -9,6 +12,12 @@
     "lib": [
       "es6",
       "dom"
+    ],
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "types": [
+      "jest"
     ],
     "rootDir": "src",
     "moduleResolution": "node"
