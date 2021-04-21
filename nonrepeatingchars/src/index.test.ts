@@ -1,4 +1,4 @@
-import { findAndCountOddNumbers } from "./";
+import { findFirstNonRepeatingCharacter } from "./";
 
 describe("tests for my stuff", () => {
     it("tests my stuff", () => {

@@ -16,6 +16,8 @@ type NumberNumberRecord = Record<number, number>;
  *
  * @param numbers The input array of numbers to test/count
  */
-export const findAndCountOddNumbers = (numbers: number[]): NumberNumberRecord => {
+export const findAndCountOddNumbers = (
+    numbers: number[]
+): NumberNumberRecord => {
     // Implement me!
-}
+};
