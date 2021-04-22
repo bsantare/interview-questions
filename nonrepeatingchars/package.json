@@ -2,7 +2,7 @@
   "name": "interview-coding-odd-numbers",
   "version": "1.0.0",
   "description": "Interview coding problem - find count of odd numbers in an array",
-  "main": "index.html",
+  "main": "src/index.ts",
   "scripts": {
     "start": "parcel index.html --open",
     "build": "parcel build index.html"
