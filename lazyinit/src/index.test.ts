@@ -12,8 +12,11 @@ describe('lazy-init tests', () => {
   });
 
   it('only initializes once', async () => {
-    const promiseResults = await Promise.all([calculateOrGetExpensiveValue(), calculateOrGetExpensiveValue() , calculateOrGetExpensiveValue() , calculateOrGetExpensiveValue(), calculateOrGetExpensiveValue()]);
+    const promiseResults = await Promise.all([...Array(5)].map(() => calculateOrGetExpensiveValue()));
 
-    expect(promiseResults).toEqual([promiseResults[0], promiseResults[0], promiseResults[0], promiseResults[0], promiseResults[0]]);
+    const expected = [...Array(5)].map(() => promiseResults[0]);
+    // console.log(`Expected: ${JSON.stringify(expected, null, 2)} Received: ${JSON.stringify(promiseResults, null, 2)}`)
+
+    expect(promiseResults).toEqual(expected);
   });
 });
