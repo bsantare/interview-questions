@@ -4,4 +4,4 @@ https://githubbox.com/bsantare/interview-questions/tree/master/oddnumbers
 
 https://githubbox.com/bsantare/interview-questions/tree/master/nonrepeatingchars
 
-https://githubbox.com/bsantare/interview-questions/tree/master/lazy-init
+https://githubbox.com/bsantare/interview-questions/tree/master/lazyinit
