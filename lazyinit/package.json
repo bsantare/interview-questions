@@ -1,7 +1,7 @@
 {
-  "name": "interview-coding-odd-numbers",
+  "name": "interview-coding-lazy-init",
   "version": "1.0.0",
-  "description": "Interview coding problem - find count of odd numbers in an array",
+  "description": "Interview coding problem - lazy init only once",
   "main": "src/index.ts",
   "scripts": {
     "start": "parcel index.html --open",

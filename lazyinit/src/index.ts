@@ -12,7 +12,7 @@ const sleep = async (timeMs: number) => {
  * expensive value to be recalculated.
  *
  * Modify this code so that the expensive value is only calculated once regardless of how many concurrent
- * async calls are made to this function.
+ * async calls are made to this function.  You _may not_ utilize external libraries to solve this issue.
  *
  * The accompanying test case should be implemented first to 1) prove there is an issue and 2) after changes,
  * prove that a workable solution has been implemented
